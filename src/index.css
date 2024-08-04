@@ -25,7 +25,8 @@
 }
 
 @media only screen and (max-width: 524px) {
-  .header { min-height: 176px; }
+  .header { min-height: 160px; }
+  .header h1 { font-size: 1.5rem; }
 }
 
 .nes-container {
@@ -39,8 +40,8 @@
 }
 
 dialog {
-  position: absolute;
-  top: 240px; 
+  position: fixed;
+  top: 30%; 
   z-index: 5000;
 }
 
