@@ -1,30 +1,68 @@
-# React + TypeScript + Vite
+# NES Classic Character Selector
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web app built with React and styled using [NES.css](https://github.com/nostalgic-css/NES.css) to give it a nostalgic NES look and feel. This app allows users to select their favorite NES character from a list and displays a short description along with the games in which the character appears.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18.3.1-blue)
+![Vite](https://img.shields.io/badge/Vite-5.3.4-brightgreen)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Features](#features)
+- [Future Improvements](#future-improvements)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To run the project locally, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1. **Clone the repository:**
+```
+git clone https://github.com/felagund1789/nes-classic.git
+cd nes-classic
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. **Install dependencies:**
+```
+npm install
+```
+
+3. **Start the development server:**
+```
+npm run dev
+```
+The app should now be running on [http://localhost:5173](http://localhost:5173).
+
+## Usage
+
+To use the NES Classic Character Selector, start the development server and navigate to the provided local URL in your browser. Once the app is running, you can explore the character selection screen, choose your favorite NES character, and view their details, including a brief description and a list of games they appear in.
+
+## Features
+
+- **Character Selection Screen**: Users can choose their favorite NES character from a list.
+- **Character Information**: Upon selection, a short description of the character and a list of games in which the character appears are displayed.
+
+## Future Improvements
+
+- **Favorite Power-ups**: Adding checkboxes for users to select their favorite power-ups associated with the chosen character.
+- **Submit Button**: A button to submit the selection and display a success message.
+- **Error and Success Messages**: Implementing notifications for user actions, including error and success messages.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Clone the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature/your-feature-name`).
+6. Open a Pull Request.
+
+## Acknowledgements
+
+- [NES.css](https://github.com/nostalgic-css/NES.css) for providing the CSS framework that brings the nostalgic NES style to the web app.
+
+---
+
+Built as a proof of concept to explore the capabilities of NES.css and React. Not intended for commercial use.
