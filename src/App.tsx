@@ -17,10 +17,12 @@ function App() {
   return (
     <>
       <CharacterSelector onSelectCharacter={(name) => setCharacterName(name)} />
-      <CharacterDetails
-        name={characterName}
-        description={characterDescription}
-      />
+      {characterDescription && (
+        <CharacterDetails
+          name={characterName}
+          description={characterDescription}
+        />
+      )}
     </>
   );
 }
