@@ -4,8 +4,11 @@ import CharacterSelector from "./components/CharacterSelector";
 import CharacterDetails from "./components/CharacterDetails";
 import characters from "./data/characters.json";
 import GamesList from "./components/GamesList";
+import MessageDialog from "./components/MessageDialog";
 
 function App() {
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState<boolean | null>(null);
   const [characterName, setCharacterName] = useState("");
   const [characterDescription, setCharacterDescription] = useState("");
   const [characterGames, setCharacterGames] = useState<string[]>([]);
@@ -16,6 +19,14 @@ function App() {
     setCharacterGames(char?.games || []);
   }, [characterName]);
 
+  const submitSelection = () => {
+    if (!characterName) {
+      setError("You must select a character.");
+      return;
+    }
+    setSuccess(true);
+  }
+
   return (
     <>
       <header className="header">
@@ -23,6 +34,8 @@ function App() {
         <h1>NES Character Selector</h1>
       </header>
       <main className="content">
+        { error && <MessageDialog title="Error" text={error} onClose={() => setError("")}/>}
+        { success && <MessageDialog title="Success" text="Your character of choice has been submitted!" onClose={() => setSuccess(null)}/>}
         <CharacterSelector
           onSelectCharacter={(name) => setCharacterName(name)}
         />
@@ -33,6 +46,11 @@ function App() {
           />
         )}
         {characterGames.length > 0 && <GamesList games={characterGames} />}
+        <div className="center">
+          <button className="nes-btn is-success" onClick={submitSelection}>
+            Submit
+          </button>
+        </div>
       </main>
       <footer className="footer">
         Built as a proof of concept to explore the capabilities of{" "}
