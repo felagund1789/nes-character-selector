@@ -1,12 +1,12 @@
 import "nes.css/css/nes.min.css";
+import CharacterSelector from "./components/CharacterSelector";
 
 function App() {
   return (
-    <div className="nes-container with-title">
-      <p className="title">Welcome</p>
-      <p>Welcome to NES-classic!</p>
-    </div>
-  )
+    <>
+      <CharacterSelector />
+    </>
+  );
 }
 
-export default App
+export default App;
