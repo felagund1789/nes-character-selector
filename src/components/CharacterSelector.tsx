@@ -1,6 +1,10 @@
 import characters from "../data/characters.json";
 
-const CharacterSelector = () => {
+interface Props {
+  onSelectCharacter: (characterName: string) => void;
+}
+
+const CharacterSelector = ({ onSelectCharacter }: Props) => {
   return (
     <div className="nes-container with-title character-selector">
       <p className="title">Choose your favorite character:</p>
@@ -13,6 +17,7 @@ const CharacterSelector = () => {
                 name="character"
                 className="nes-radio"
                 value={char.name}
+                onChange={(event) => onSelectCharacter(event.currentTarget.value)}
               />
               <span>{char.name}</span>
             </label>
