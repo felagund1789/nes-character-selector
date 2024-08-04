@@ -7,7 +7,7 @@ interface Props {
 const CharacterSelector = ({ onSelectCharacter }: Props) => {
   return (
     <div className="nes-container with-title character-selector">
-      <p className="title">Choose your favorite character:</p>
+      <h2 className="title">Choose your favorite character:</h2>
       <form>
         {characters.map((char) => (
           <div key={char.name}>

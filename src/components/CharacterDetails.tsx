@@ -12,12 +12,13 @@ const CharacterDetails = ({ name, description }: Props) => {
     <div className="nes-container with-title character-details">
       <h2 className="title">{name}</h2>
       <p>{description}</p>
-      <h3>Games list:</h3>
+      <h4>Games list:</h4>
       <ul className="nes-list is-disc">
         {games.map((game) => (
           <li>{game}</li>
         ))}
       </ul>
+      <i className={`nes-icon is-small nes-${name.toLowerCase()}`} />
     </div>
   );
 };
