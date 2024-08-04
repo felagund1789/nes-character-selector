@@ -30,6 +30,7 @@ function App() {
         />
       )}
       {characterGames.length > 0 && <GamesList games={characterGames} />}
+      <footer>Built as a proof of concept to explore the capabilities of <a href="https://github.com/nostalgic-css/NES.css">NES.css</a> and React. Not intended for commercial use.</footer>
     </>
   );
 }

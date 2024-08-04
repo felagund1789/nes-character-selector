@@ -24,3 +24,8 @@
 .nes-container {
   margin: 16px;
 }
+
+footer {
+  margin: 16px;
+  bottom: 0px;
+}
