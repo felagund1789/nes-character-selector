@@ -4,12 +4,14 @@ A simple web app built with React and styled using [NES.css](https://github.com/
 
 ![React](https://img.shields.io/badge/React-18.3.1-blue)
 ![Vite](https://img.shields.io/badge/Vite-5.3.4-brightgreen)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-blue)
 
 ## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
 - [Features](#features)
 - [Future Improvements](#future-improvements)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Installation
