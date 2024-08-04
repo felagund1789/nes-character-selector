@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Mario",
+    "description": "The iconic plumber hero of the Super Mario series, known for his jumping abilities and bravery.",
+    "games": [
+      "Super Mario Bros.",
+      "Super Mario Bros. 2",
+      "Super Mario Bros. 3",
+      "Dr. Mario"
+    ]
+  },
+  {
+    "name": "Luigi",
+    "description": "Mario's taller, slightly younger brother, often distinguished by his green outfit.",
+    "games": ["Super Mario Bros.", "Super Mario Bros. 2", "Super Mario Bros. 3"]
+  },
+  {
+    "name": "Link",
+    "description": "The courageous hero of The Legend of Zelda series, known for wielding the Master Sword.",
+    "games": ["The Legend of Zelda", "Zelda II: The Adventure of Link"]
+  },
+  {
+    "name": "Samus Aran",
+    "description": "The protagonist of the Metroid series, a bounty hunter in a powerful Power Suit.",
+    "games": ["Metroid"]
+  },
+  {
+    "name": "Mega Man",
+    "description": "A robot with a Mega Buster arm cannon, fighting to stop Dr. Wily's plans.",
+    "games": [
+      "Mega Man",
+      "Mega Man 2",
+      "Mega Man 3",
+      "Mega Man 4",
+      "Mega Man 5",
+      "Mega Man 6"
+    ]
+  },
+  {
+    "name": "Simon Belmont",
+    "description": "A vampire hunter wielding the whip Vampire Killer, fighting Dracula.",
+    "games": [
+      "Castlevania",
+      "Castlevania II: Simon's Quest",
+      "Castlevania III: Dracula's Curse"
+    ]
+  },
+  {
+    "name": "Donkey Kong",
+    "description": "A powerful ape originally antagonistic in Donkey Kong but later a hero in other games.",
+    "games": ["Donkey Kong", "Donkey Kong Jr.", "Donkey Kong 3"]
+  },
+  {
+    "name": "Pit",
+    "description": "The angelic protagonist of Kid Icarus, tasked with saving Angel Land.",
+    "games": ["Kid Icarus"]
+  },
+  {
+    "name": "Ryu Hayabusa",
+    "description": "A ninja on a quest for revenge and to recover stolen artifacts.",
+    "games": [
+      "Ninja Gaiden",
+      "Ninja Gaiden II: The Dark Sword of Chaos",
+      "Ninja Gaiden III: The Ancient Ship of Doom"
+    ]
+  },
+  {
+    "name": "Kirby",
+    "description": "A small, pink, spherical character with the ability to inhale enemies and gain their abilities.",
+    "games": ["Kirby's Adventure"]
+  }
+]

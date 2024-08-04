@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Super Mushroom",
+    "description": "Makes Mario grow larger and take an extra hit.",
+    "games": ["Super Mario Bros.", "Super Mario Bros. 2", "Super Mario Bros. 3"]
+  },
+  {
+    "name": "Fire Flower",
+    "description": "Grants the ability to throw fireballs.",
+    "games": ["Super Mario Bros.", "Super Mario Bros. 2", "Super Mario Bros. 3"]
+  },
+  {
+    "name": "Starman",
+    "description": "Temporary invincibility.",
+    "games": ["Super Mario Bros.", "Super Mario Bros. 2", "Super Mario Bros. 3"]
+  },
+  {
+    "name": "Tanooki Suit",
+    "description": "Allows flying and transforming into a statue.",
+    "games": ["Super Mario Bros. 3"]
+  },
+  {
+    "name": "Hammer Suit",
+    "description": "Allows Mario to throw hammers.",
+    "games": ["Super Mario Bros. 3"]
+  },
+  {
+    "name": "Heart Containers",
+    "description": "Increases maximum health.",
+    "games": ["The Legend of Zelda", "Zelda II: The Adventure of Link"]
+  },
+  {
+    "name": "Triforce Pieces",
+    "description": "Completes the Triforce.",
+    "games": ["The Legend of Zelda", "Zelda II: The Adventure of Link"]
+  },
+  {
+    "name": "Energy Tanks",
+    "description": "Increases maximum energy.",
+    "games": [
+      "Metroid",
+      "Mega Man",
+      "Mega Man 2",
+      "Mega Man 3",
+      "Mega Man 4",
+      "Mega Man 5",
+      "Mega Man 6"
+    ]
+  },
+  {
+    "name": "Morph Ball",
+    "description": "Allows Samus to roll into tight spaces.",
+    "games": ["Metroid"]
+  },
+  {
+    "name": "Robot Master Weapons",
+    "description": "Powers obtained by defeating bosses.",
+    "games": [
+      "Mega Man",
+      "Mega Man 2",
+      "Mega Man 3",
+      "Mega Man 4",
+      "Mega Man 5",
+      "Mega Man 6"
+    ]
+  },
+  {
+    "name": "Holy Water",
+    "description": "Sub-weapon used by Simon Belmont.",
+    "games": [
+      "Castlevania",
+      "Castlevania II: Simon's Quest",
+      "Castlevania III: Dracula's Curse"
+    ]
+  },
+  {
+    "name": "Cross",
+    "description": "Sub-weapon used by Simon Belmont.",
+    "games": [
+      "Castlevania",
+      "Castlevania II: Simon's Quest",
+      "Castlevania III: Dracula's Curse"
+    ]
+  },
+  {
+    "name": "Dagger",
+    "description": "Sub-weapon used by Simon Belmont.",
+    "games": [
+      "Castlevania",
+      "Castlevania II: Simon's Quest",
+      "Castlevania III: Dracula's Curse"
+    ]
+  },
+  {
+    "name": "Axe",
+    "description": "Sub-weapon used by Simon Belmont.",
+    "games": [
+      "Castlevania",
+      "Castlevania II: Simon's Quest",
+      "Castlevania III: Dracula's Curse"
+    ]
+  },
+  {
+    "name": "Sacred Treasures",
+    "description": "Items that grant various abilities.",
+    "games": ["Kid Icarus"]
+  },
+  {
+    "name": "Shurikens",
+    "description": "Ninja tool used by Ryu Hayabusa.",
+    "games": [
+      "Ninja Gaiden",
+      "Ninja Gaiden II: The Dark Sword of Chaos",
+      "Ninja Gaiden III: The Ancient Ship of Doom"
+    ]
+  },
+  {
+    "name": "Fire Wheel",
+    "description": "Ninja ability used by Ryu Hayabusa.",
+    "games": [
+      "Ninja Gaiden",
+      "Ninja Gaiden II: The Dark Sword of Chaos",
+      "Ninja Gaiden III: The Ancient Ship of Doom"
+    ]
+  },
+  {
+    "name": "Copy Abilities",
+    "description": "Powers gained by inhaling enemies.",
+    "games": ["Kirby's Adventure"]
+  }
+]
