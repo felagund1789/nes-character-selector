@@ -20,7 +20,7 @@ function App() {
     <>
       <div className="header">
         <div className="nes-icon nes-logo"></div>
-        <h1>NES Classic character selector</h1>
+        <h1>NES Character Selector</h1>
       </div>
       <CharacterSelector onSelectCharacter={(name) => setCharacterName(name)} />
       {characterDescription && (
