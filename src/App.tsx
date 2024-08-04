@@ -18,19 +18,27 @@ function App() {
 
   return (
     <>
-      <div className="header">
+      <header className="header">
         <div className="nes-icon nes-logo"></div>
         <h1>NES Character Selector</h1>
-      </div>
-      <CharacterSelector onSelectCharacter={(name) => setCharacterName(name)} />
-      {characterDescription && (
-        <CharacterDetails
-          name={characterName}
-          description={characterDescription}
+      </header>
+      <main className="content">
+        <CharacterSelector
+          onSelectCharacter={(name) => setCharacterName(name)}
         />
-      )}
-      {characterGames.length > 0 && <GamesList games={characterGames} />}
-      <footer>Built as a proof of concept to explore the capabilities of <a href="https://github.com/nostalgic-css/NES.css">NES.css</a> and React. Not intended for commercial use.</footer>
+        {characterDescription && (
+          <CharacterDetails
+            name={characterName}
+            description={characterDescription}
+          />
+        )}
+        {characterGames.length > 0 && <GamesList games={characterGames} />}
+      </main>
+      <footer className="footer">
+        Built as a proof of concept to explore the capabilities of{" "}
+        <a href="https://github.com/nostalgic-css/NES.css">NES.css</a> and
+        React. Not intended for commercial use.
+      </footer>
     </>
   );
 }

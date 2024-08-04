@@ -6,23 +6,36 @@
 
 .header {
   display: flex;
-  padding: 16px;
+  margin: 16px;
+  min-height: 96px;
 }
 
 .header h1 {
-  margin-left: 64px;
-  margin-top: 32px;
+  position: absolute;
+  left: 160px;
+  top: 48px;
 }
 
-@media only screen and (max-width: 480px) {
-  .header h1 {
-    margin-left: 128px;
-    margin-top: 16px;
-  }
+@media only screen and (max-width: 860px) {
+  .header { min-height: 128px; }
+}
+
+@media only screen and (max-width: 580px) {
+  .header h1 { font-size: 1.75rem; }
+}
+
+@media only screen and (max-width: 524px) {
+  .header { min-height: 176px; }
 }
 
 .nes-container {
   margin: 16px;
+}
+
+.center {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 footer {
