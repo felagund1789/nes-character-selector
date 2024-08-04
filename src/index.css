@@ -1,7 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 :root {
   font-family: "Press Start 2P", system-ui;
+}
+
+.header {
+  display: flex;
+  padding: 16px;
+}
+
+.header h1 {
+  margin-left: 64px;
+  margin-top: 32px;
+}
+
+@media only screen and (max-width: 480px) {
+  .header h1 {
+    margin-left: 128px;
+    margin-top: 16px;
+  }
 }
 
 .nes-container {
