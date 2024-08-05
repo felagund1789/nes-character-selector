@@ -101,6 +101,11 @@
     ]
   },
   {
+    "name": "Hammer",
+    "description": "Tool that is used to break objects.",
+    "games": ["Donkey Kong", "Donkey Kong Jr.", "Donkey Kong 3"]
+  },
+  {
     "name": "Sacred Treasures",
     "description": "Items that grant various abilities.",
     "games": ["Kid Icarus"]
