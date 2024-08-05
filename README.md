@@ -10,7 +10,6 @@ A simple web app built with React and styled using [NES.css](https://github.com/
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Future Improvements](#future-improvements)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 
@@ -45,11 +44,8 @@ To use the NES Character Selector, start the development server and navigate to 
 - **Character Information**: Upon selection, a short description of the character and a list of games in which the character appears are displayed.
 - **Submit Button**: A button allows users to submit their selection and display a success message.
 - **Error and Success Messages**: Error and success messages are shown in order to inform users about the validity of their submission.
+- **Favorite Power-ups**: Using checkboxes the users can select their favorite power-ups associated with the chosen character.
 - **Responsive Design:** Users can enjoy a responsive UI built using [CSS @media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries), ensuring a great experience on both desktop and mobile devices.
-
-## Future Improvements
-
-- **Favorite Power-ups**: Adding checkboxes for users to select their favorite power-ups associated with the chosen character.
 
 ## Contributing
 
