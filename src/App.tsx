@@ -9,7 +9,7 @@ import PowerUpsSelector from "./components/PowerUpsSelector";
 
 function App() {
   const [error, setError] = useState("");
-  const [success, setSuccess] = useState<boolean | null>(null);
+  const [success, setSuccess] = useState("");
   const [characterName, setCharacterName] = useState("");
   const [characterDescription, setCharacterDescription] = useState("");
   const [characterGames, setCharacterGames] = useState<string[]>([]);
@@ -19,6 +19,7 @@ function App() {
     const char = characters.find((c) => c.name === characterName);
     setCharacterDescription(char?.description || "");
     setCharacterGames(char?.games || []);
+    setPowerUps([]);
   }, [characterName]);
 
   const onSelectPowerUp = (powerUp: string) => {
@@ -32,7 +33,17 @@ function App() {
       setError("You must select a character.");
       return;
     }
-    setSuccess(true);
+
+    if (!powerUps.length) {
+      setError("You must select at least one power-up.");
+      return;
+    }
+
+    setSuccess(
+      `You have selected ${characterName} with the power-up${
+        powerUps.length === 1 ? "" : "s"
+      }: ${powerUps.join(", ")}.`
+    );
   };
 
   return (
@@ -51,9 +62,9 @@ function App() {
         )}
         {success && (
           <MessageDialog
-            title="Success"
-            text="Your character of choice has been submitted!"
-            onClose={() => setSuccess(null)}
+            title="Good choice!"
+            text={success}
+            onClose={() => setSuccess("")}
           />
         )}
         <CharacterSelector
