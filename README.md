@@ -2,9 +2,9 @@
 
 A simple web app built with React and styled using [NES.css](https://github.com/nostalgic-css/NES.css) to give it a nostalgic NES look and feel. This app allows users to select their favorite NES character from a list and displays a short description along with the games in which the character appears.
 
-![React](https://img.shields.io/badge/React-18.3.1-blue)
-![Vite](https://img.shields.io/badge/Vite-5.3.4-brightgreen)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-blue)
+![React](https://img.shields.io/badge/-React-000000?style=flat-square&logo=React&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -65,3 +65,4 @@ Contributions are welcome! Please follow these steps:
 ---
 
 Built as a proof of concept to explore the capabilities of NES.css and React. Not intended for commercial use.
+NES® and all the characters used in this project are registered trademarks of Nintendo®.
